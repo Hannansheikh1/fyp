@@ -1,0 +1,94 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020817; /* Dark background */
+  padding: 0.5rem 2rem;
+  height: 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Logo Styling */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 38%;
+
+}
+
+.logo-image {
+  width: 320px; /* Adjust the logo size */
+  height: 65px; /* Maintain proportions */
+}
+
+
+/* Button Container */
+.navbar-buttons {
+  display: flex;
+  gap: 2rem; /* Space between the buttons */
+  margin-right: 65px;
+  margin-bottom: 25px;
+  height: 40px;
+}
+
+/* Button Styles */
+.register-button {
+  background-color: transparent;
+  color: #8b5cf6; /* Purple color for text and border */
+  border: 2px solid #7859F6;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.7rem;
+  font-weight: BOLD;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font: Roboto, "Helvetica Neue",
+}
+
+.register-button:hover {
+  background-color: #8b5cf6; /* Purple fill on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+.signin-button {
+  background-color: #7859F6; /* Purple background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight:bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font: Roboto, "Helvetica Neue",
+}
+
+.signin-button:hover {
+  background-color: #6b46c1; /* Darker purple on hover */
+}
+
+/* Responsive Design (Optional) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .navbar-logo {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .register-button,
+  .signin-button {
+    width: 100%; 
+  }
+}

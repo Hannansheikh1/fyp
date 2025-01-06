@@ -1,0 +1,85 @@
+.hero {
+    background-color: #020817; 
+    color: #ffffff;
+    text-align: center;
+    padding: 0.1rem;
+    
+  }
+  
+  .hero-tagline {
+    font-size: 1.4rem;
+    color: #ffffff; /* Light gray for tagline */
+    
+  }
+  
+  .hero-tagline .highlight {
+    color: #A78BFA; /* Purple highlight */
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  /* Heading */
+  .hero-heading {
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+    margin-top: 2.2rem;
+  }
+  
+  .hero-heading span {
+    display: inline-block;
+    border-bottom: 3px solid #ffffff; /* Underline effect */
+  }
+  
+  /* Subheading */
+  .hero-subheading {
+    font-size: 1.1rem;
+    color: #F8FAFC;
+    margin-bottom: 3rem;
+    
+  }
+  
+  /* Call-to-Action Button */
+  .hero-cta {
+    background-color: #7859F6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 60px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-cta:hover {
+    background-color: #6b46c1; /* Darker purple on hover */
+  }
+  
+  /* Categories Section */
+  .hero-categories {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .category {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    font-size: 1.4rem;
+    color: #F8FAFC;
+  }
+  
+  .category .dot {
+    width: 20px;
+    height: 20px;
+    background-color: #A78BFA;
+    border-radius: 50%;
+  }
+  

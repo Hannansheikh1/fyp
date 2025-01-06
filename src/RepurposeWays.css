@@ -1,0 +1,126 @@
+/* General Container */
+.repurpose-container {
+    padding: 2rem 1rem;
+    color: #ffffff;
+  }
+  
+  .repurpose-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .repurpose-heading .highlight {
+    color: #6941c6; /* Purple highlight */
+  }
+  
+  /* Sections */
+  .repurpose-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+    align-items: center;
+  }
+  
+  /* Individual Item */
+  .repurpose-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+  }
+  
+  .repurpose-item.reverse {
+    flex-direction: row-reverse; /* Reverse layout for alternating design */
+  }
+  
+  /* Image Styling */
+  .repurpose-image img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Content Styling */
+  .repurpose-content {
+    max-width: 600px;
+    font-size: 90px;
+    margin-bottom: 60px;
+  }
+  
+  .repurpose-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .repurpose-content p {
+    font-size: 1rem;
+    color: #b3b3b3;
+    line-height: 1.6;
+  }
+  
+  /* Buttons */
+  .repurpose-button {
+    background: linear-gradient(90deg, #16C7FF 0%, #583DFF 100%);
+    display: inline-flex;
+    color: #ffffff; 
+    padding: 0.8rem 2rem; 
+    border: none;
+    border-radius: 66px; 
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+  }
+  
+  .repurpose-button:hover {
+    transform: scale(1.05); /* Slightly enlarge button */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add subtle shadow on hover */
+  }
+  
+  .repurpose-button.blue {
+    background-color: #3b82f6; /* Blue button for Section 2 */
+  }
+  
+  .repurpose-button.blue:hover {
+    transform: scale(1.05); /* Slightly enlarge button */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add subtle shadow on hover */  }
+  
+  .repurpose-button.purple {
+    background-color: #5b21b6; /* Purple button for Section 3 */
+  }
+  
+  .repurpose-button.purple:hover {
+    background-color: #4c1d95; /* Darker purple on hover */
+  }
+  
+  .pic1{
+    height: 400px;
+    width: 200px;
+  }
+  .pic2{
+    height: 400px;
+    width: 200px;
+
+  }
+
+  .pic3{
+    height: 400px;
+    width: 200px;
+  }
+
+  .buts{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
